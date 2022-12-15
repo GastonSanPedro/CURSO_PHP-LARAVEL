@@ -1,0 +1,4 @@
+alice@example.com|Alice Linsay
+banner@example.com|Banner Gradner
+charles@example.com|Charlie Tanner
+ale@gmail.com|Ale Buquete

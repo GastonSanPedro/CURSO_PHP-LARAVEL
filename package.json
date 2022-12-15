@@ -1,0 +1,13 @@
+{
+  "name": "curso-php-laravel",
+  "version": "1.0.0",
+  "description": "MySQL \r usuario: root\r contraseña:1234",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

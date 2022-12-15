@@ -1,0 +1,45 @@
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Hola Ejemplo8</title>
+    <link href="../bootstrap-4.3.1-dist/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <script src="../bootstrap-4.3.1-dist/js/bootstrap.min.js"></script>
+  </head>
+  <body>
+    <h1>Armamos un Formulario</h1>
+    <form action="ejemplo1.html">
+      <div class="form-group">
+        <label>Nombre</label>
+        <input type="text" class="form-control" id="nombre" name="nombre" size="35" maxlength="30" placeholder="tipee su nombre aqui" />
+        <br />
+        <label>Apellido</label>
+        <input type="text" class="form-control" id="apellido" name="apellido" size="35" maxlength="30" />
+        <br />
+        <label>Password</label>
+        <input type="password" class="form-control" id="pass" name="pass" size="35" maxlength="30" />
+        <br />
+        <!-- radio, permite una UNICA seleccion-->
+        <input type="radio" name="sexo" id="varon" value="varon" />
+        <label>Varon</label>
+        <input type="radio" name="sexo" id="mujer" value="mujer" checked />
+        <label>Mujer</label>
+        <input type="radio" name="sexo" id="otro" value="otro" />
+        <label>Otro</label>
+        <br />
+        <!-- checkbox, permite MULTIPLE seleccion-->
+        <div class="form-check mb-2 mr-sm-2">
+          <label class="form-check-label"> <input type="checkbox" class="form-check-input" name="info" id="cd" value="cd" />Certificado deposito </label>
+          <br />
+          <label class="form-check-label"> <input type="checkbox" class="form-check-input" name="info" id="hipo" value="hipo" />Hipoteca </label>
+          <br />
+          <label class="form-check-label"> <input type="checkbox" class="form-check-input" name="info" id="pp" value="pp" checked />Prestamo personal </label>
+        </div>
+        <br />
+        <textarea rows="5" cols="60" name="comentarios"></textarea>
+        <br />
+        <button type="submit" class="btn btn-primary mb-2">Enviar</button>
+        <button type="reset" class="btn btn-danger">Limpiar</button>
+      </div>
+    </form>
+  </body>
+</html>
